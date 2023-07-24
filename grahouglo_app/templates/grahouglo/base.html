@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Unicons CSS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'grahouglo/css/style.css' %}">
+    {% include 'grahouglo/navbar.html' %}
+
+</head>
+<body>
+
+    {% block content %}
+
+
+
+
+
+
+
+    {% endblock %}
+
+    {% include 'grahouglo/footer.html' %}
+<script src="{% static 'grahouglo/js/script.js' %}"></script>
+</body>
+</html>
