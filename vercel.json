@@ -1,13 +1,13 @@
 {
     "builds": [{
-        "src": "deploy_project/wsgi.py",
+        "src": "grahouglo_project/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     }],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "deploy_project/wsgi.py"
+            "dest": "grahouglo_project/wsgi.py"
         }
     ]
 
